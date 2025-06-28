@@ -4,7 +4,7 @@ import numpy as np
 import faiss
 
 
-genai.configure(api_key="AIzaSyDITxfnFKTWI6aIt3jwmdaGfa-_xDO9BEI")  
+genai.configure(api_key="g_api")  
 
 
 documents = [
