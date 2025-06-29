@@ -1,0 +1,874 @@
+[
+  {
+    "question": "What is the main purpose of the book 'Operating System Concepts with Java'?",
+    "topic": "Operating System",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "To learn about operating systems only for Windows",
+      "To learn about operating systems and programming in Java",
+      "To learn about mobile operating systems only",
+      "To learn about database management systems only"
+    ]
+  },
+  {
+    "question": "Describe the memory management concepts discussed in 'Operating Systems' book.",
+    "topic": "Memory Management",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "A process is scheduled for execution. What happens next?",
+    "topic": "Process Scheduling",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What happens when a user process accesses memory outside its valid range?",
+    "topic": "Base and Limit Registers",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "Who is allowed to change the contents of the base and limit registers?",
+    "topic": "Base and Limit Registers",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What type of error is generated when a memory access is attempted outside the valid range?",
+    "topic": "Hardware Address Protection",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "Which option correctly describes the purpose of the base and limit registers?",
+    "topic": "Base and Limit Registers",
+    "type": "mcq",
+    "difficulty": "hard",
+    "cognitive_level": "applying",
+    "options": [
+      "Allow user processes to access arbitrary memory locations",
+      "Define the logical address space for each process",
+      "Enable the operating system to monitor all memory accesses",
+      "Prevent user processes from accessing memory that belongs to other processes"
+    ]
+  },
+  {
+    "question": "What is the primary function of Address Binding Programs?",
+    "topic": "Operating System",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question": "How are addresses represented in source code versus compiled code?",
+    "topic": "Operating System",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What happens to the physical address of a process when it is loaded into memory?",
+    "topic": "Memory Management",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "How do linker/loader functions bind relocatable addresses to absolute addresses?",
+    "topic": "Operating System",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "At what stage does the compiler generate relocatable code?",
+    "topic": "Binding to Memory",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What is an advantage of using compile time binding in DOS .COM programs?",
+    "topic": "Binding to Memory",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Which option is the disadvantage of using execute time binding?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "topic": "Binding to Memory",
+    "type": "mcq",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "A program with relocatable code can be reloaded but not recompiled if the load address changes. What is the maximum number of times this can happen before the program becomes obsolete?",
+    "topic": "Binding to Memory",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What type of addressing is independent of the current assignment of data to memory?",
+    "topic": "Computer Organization",
+    "type": "mcq",
+    "difficulty": "medium",
+    "cognitive_level": "understanding",
+    "options": [
+      "Relative",
+      "Absolute",
+      "Physical",
+      "Logical"
+    ]
+  },
+  {
+    "question": "Describe the difference between Relative and Absolute addressing.",
+    "topic": "Computer Organization",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the purpose of a linker in the compilation process?",
+    "topic": "Compiler Design",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "How does the system library loader handle dynamic loading of modules?",
+    "topic": "Operating System",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the primary function of the Memory-Management Unit (MMU)?",
+    "topic": "Memory Management",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "Maps virtual to physical address",
+      "Generates relocation registers",
+      "Executes user programs",
+      "Handles memory allocation"
+    ]
+  },
+  {
+    "question": "What happens to the logical addresses used by a user program when it is sent to memory?",
+    "topic": "Memory Management",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Describe the process of execution-time binding in the context of Memory-Management Unit (MMU) operation.",
+    "topic": "Memory Management",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "A system has a relocation register that maps virtual addresses to physical addresses. If the relocation register contains the value 5, and an address is generated by adding this value to every address generated by a user process, what would be the new physical address if the logical address is 100?",
+    "topic": "Memory Management",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is dynamic relocation used for?",
+    "topic": "Dynamic Relocation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "Reducing total memory usage",
+      "Generating faster program startup times",
+      "Both A and B",
+      "Neither A nor B"
+    ]
+  },
+  {
+    "question": "Explain the concept of dynamic relocation in detail.",
+    "topic": "Dynamic Relocation",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "How does dynamic loading relate to routine calls?",
+    "topic": "Program Loading",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the overhead of checking for loaded routines in dynamic relocation?",
+    "topic": "Dynamic Relocation Overhead",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What is the primary purpose of dynamic linking?",
+    "topic": "Dynamic Linking",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "A) To preload libraries into memory",
+      "B) To locate and load libraries at runtime",
+      "C) To create a stub for library routines",
+      "D) To patch system libraries"
+    ]
+  },
+  {
+    "question": "Describe the process of dynamic linking in detail.",
+    "topic": "Dynamic Linking",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding",
+    "options": []
+  },
+  {
+    "question": "What are some benefits of using dynamic linking?",
+    "topic": "Dynamic Linking",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "A) Easier to manage library dependencies",
+      "B) More flexibility in library updates",
+      "C) Improved security against malware",
+      "D) Faster execution times"
+    ]
+  },
+  {
+    "question": "An operating system has a memory-resident library routine for a specific function. The loader is unable to find the routine in memory. What should the operating system do?",
+    "topic": "Dynamic Linking",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating",
+    "options": []
+  },
+  {
+    "question": "What happens when a low-priority process needs to be loaded?",
+    "topic": "Swapping Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "A. The system does not load the process.",
+      "B. The swapped-out process is loaded into memory.",
+      "C. The system loads a new low-priority process.",
+      "D. The system runs out of memory."
+    ]
+  },
+  {
+    "question": "What is the primary purpose of a backing store?",
+    "topic": "Backed-Up Memory",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Explain how swapping affects system performance. Be sure to include the role of transfer time and ready queue.",
+    "topic": "Swapping Processes",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "If a process is swapped out, does it need to be swapped back in using the same physical addresses?",
+    "topic": "Swapped Out Process",
+    "type": "numerical",
+    "difficulty": "medium",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What determines whether swapping is enabled?",
+    "topic": "Swapping",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "More than a certain amount of memory allocated",
+      "Pending I/O to/from process memory space",
+      "Both A and B are correct",
+      "Neither A nor B is correct"
+    ]
+  },
+  {
+    "question": "Describe the purpose of swapping in operating systems.",
+    "topic": "Swapping",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What are some examples of modified swapping methods used in different operating systems?",
+    "topic": "Operating Systems",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "If a system has allocated more than 1000 MB of memory, will swapping be enabled? Explain.",
+    "topic": "Swapping Thresholds",
+    "type": "numerical",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What type of memory division uses equal-size frames?",
+    "topic": "Memory Division",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "Simple Paging",
+      "Dynamic Partitioning",
+      "Segmentation",
+      "Virtual Memory"
+    ]
+  },
+  {
+    "question": "Describe the process of loading a segment into dynamic partitions.",
+    "topic": "Segmentation",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "How many segments does a process need to be divided into?",
+    "topic": "Segmentation",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "A process has 10 pages that fit in 5 frames. What is the fraction of memory used?",
+    "topic": "Paging",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the primary advantage of paging?",
+    "topic": "Memory Management",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "More efficient use of main memory",
+      "No internal fragmentation",
+      "Higher degree of multiprogramming",
+      "Large virtual address space"
+    ]
+  },
+  {
+    "question": "Describe the benefits of not loading all pages or segments into memory at once.",
+    "topic": "Memory Management Techniques",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What are some strengths and weaknesses of paging compared to dynamic partitioning?",
+    "topic": "Memory Management Techniques",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "If a process needs 100 bytes of memory, but only 50 bytes are available in the free list, what happens to the remaining 50 bytes?",
+    "topic": "Memory Management Techniques",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What happens when all partitions are full and no process is in the Ready or Running state?",
+    "topic": "Operating System",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "The operating system shuts down",
+      "The operating system swaps out a process",
+      "The operating system loads a new process",
+      "Nothing happens"
+    ]
+  },
+  {
+    "question": "Describe the disadvantage of using equal-size partitions.",
+    "topic": "Operating System",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Explain how a program may be too big to fit in a partition and what technique can be used to address this issue.",
+    "topic": "Operating System",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "A system has 8M me. If the partition size is 1MB, how many times can this system fit the given memory size?",
+    "topic": "Operating System",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the benefit of using unequal size partitions?",
+    "topic": "Memory Management",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "How does IBM's mainframe operating system handle memory allocation?",
+    "topic": "Dynamic Partitioning",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What is the disadvantage of using dynamic partitioning?",
+    "topic": "Dynamic Partitioning",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "How many MB can be accommodated without overlays when using unequal size partitions?",
+    "topic": "Unequal Size Partitions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "1M",
+      "2M",
+      "4M",
+      "16M"
+    ]
+  },
+  {
+    "question": "What does the Placement Algorithm do when there are multiple blocks available?",
+    "topic": "Placement Algorithms",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "Allocate the block that is memory from memory from largest block",
+      "Chooses the first available block",
+      "Chooses the last search entire the first placement list available",
+      "Produce the block that is the next largest large enough available"
+    ]
+  },
+  {
+    "question": "Describe how the Placement Algorithm chooses a block when there are multiple blocks of similar size available.",
+    "topic": "Placement Algorithms",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Explain the Placement Algorithm's strategy for handling the last search entire placement list available.",
+    "topic": "Placement Algorithms",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "How does the Placement Algorithm determine which block to use when there is a leftover hole in memory?",
+    "topic": "Placement Algorithms",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What algorithm places the first process of 212 Kb?",
+    "topic": "Memory Allocation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "First-fit",
+      "Best-fit",
+      "Worst-fit",
+      "None"
+    ]
+  },
+  {
+    "question": "What is the outcome of placing a process of 112 Kb using the best-fit algorithm?",
+    "topic": "Memory Allocation",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Explain how the first-fit, best-fit, and worst-fit algorithms handle the placement of a process of 426 Kb?",
+    "topic": "Memory Allocation",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What is the total free space left after placing processes of 212 Kb, 417 Kb, and 112 Kb using the first-fit algorithm?",
+    "topic": "Memory Allocation",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What type of partition allocation scheme can satisfy the given requests?",
+    "topic": "Memory Management",
+    "type": "mcq",
+    "difficulty": "medium",
+    "cognitive_level": "understanding",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question": "Describe the Buddy System and its types of partitioning schemes.",
+    "topic": "Memory Management Partitioning",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "Consider the following memory allocation requests: 300K, 25K, 125K and SOK. How would the Buddy System handle these requests?",
+    "topic": "Memory Management Buddy System",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "A memory allocation scheme has 2 blocks of size 150K each and a block of size 350K. How many memory allocation requests can be satisfied with this scheme?",
+    "topic": "Memory Management Allocations",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the purpose of the buddy system in paging?",
+    "topic": "Buddy System",
+    "type": "long",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What happens to process memory when it is divided into small fixed-size blocks?",
+    "topic": "Memory Division",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Why is it necessary to find N free frames to load a program of size N pages?",
+    "topic": "Paging Process",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What happens when the buddy system is used to allocate memory blocks?",
+    "options": [
+      "External fragmentation occurs.",
+      "Internal fragmentation occurs.",
+      "Both external and internal fragmentation occur.",
+      "Neither external nor internal fragmentation occurs."
+    ],
+    "topic": "Buddy System",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What type of memory address conversion does the page table handle?",
+    "topic": "Page Table",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "remembering",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question": "What is the size of each page table entry in this system?",
+    "topic": "Page Table Entries",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "How many pages are present in this system, given that there are 2^32 total bytes of memory?",
+    "topic": "System Memory",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "A system has 4 kilobyte page size and 4-byte PTEs. If each byte of memory is worth 8 cents, how much will a 4KB page access cost?",
+    "topic": "Page Table Costs",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "What is the effect of small frame sizes on internal fragmentation?",
+    "topic": "Internal Fragmentation",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "How is the address generated by the CPU for a given logical address space and page size calculated?",
+    "topic": "Address Translation Scheme",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the difference between worst-case fragmentation and average fragmentation in terms of frame sizes?",
+    "topic": "Internal Fragmentation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "Which of the following best describes the effect of internal fragmentation on system performance?",
+    "options": [
+      "It has no significant impact.",
+      "It can lead to slower system performance and increased memory usage.",
+      "It is negligible and does not affect system performance.",
+      "It improves system performance by reducing waste."
+    ],
+    "topic": "Internal Fragmentation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What is the purpose of the Page-table length register (PTLR) in the paging model?",
+    "topic": "Paging Model",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "How many memory accesses are required for a data/instruction access in the paging model?",
+    "topic": "Paging Model",
+    "type": "short",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What is the effect of using a special fast-lookup hardware cache called associative memory or translation look-aside buffers (TLBs) on the paging model?",
+    "topic": "Paging Model",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "If a process has 32-byte memory and pages are 4 bytes, how many pages can the process have?",
+    "topic": "Paging Model",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the difference between Before allocation and After allocation in the free-frame list?",
+    "topic": "Free Frames",
+    "type": "mcq",
+    "difficulty": "medium",
+    "options": [
+      "The process has allocated a new frame before listing it in the free frame list.",
+      "The process has listed its existing frames after allocating a new frame.",
+      "There is no difference between Before allocation and After allocation in the free-frame list.",
+      "Both Before allocation and After allocation occur simultaneously."
+    ],
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What happens when Ifp is not in the associative register?",
+    "topic": "Associative Memory",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "Where does the page table contain information for TLB misses?",
+    "topic": "Paging Hardware",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What is the physical memory address of a logical address when TLB hit, with page frame number 123 and logical address 456?",
+    "topic": "Paging Hardware",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "applying"
+  },
+  {
+    "question": "What is the purpose of an associative register in memory access?",
+    "topic": "Associative Memory",
+    "type": "mcq",
+    "difficulty": "medium",
+    "cognitive_level": "understanding",
+    "options": [
+      "A) To store page numbers",
+      "B) To cache frame numbers",
+      "C) To translate logical addresses to physical memory",
+      "D) To manage TLB hits"
+    ]
+  },
+  {
+    "question": "What is the effective memory access time when the TLB hit ratio is 0.6?",
+    "topic": "Paging Hardware",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "question": "What is the purpose of a TLB in paging hardware?",
+    "topic": "Paging Hardware With TLB",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What happens to the effective memory access time when the TLB hit ratio increases?",
+    "topic": "Paging Hardware",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "If it takes 10 milliseconds to search the TLB and 80 milliseconds to access the physical memory, what is the EMAT (Effective Memory Access Time)?",
+    "topic": "Paging Hardware With TLB",
+    "type": "numerical",
+    "difficulty": "medium",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What is the formula for calculating EMAT?",
+    "topic": "Paging Hardware With TLB",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What is the primary purpose of shared pages in operating systems?",
+    "topic": "Operating Systems",
+    "type": "short",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "How do hierarchical page tables break up the logical address space?",
+    "topic": "Page Tables",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "What is the significance of a two-level page-table scheme in operating systems?",
+    "topic": "Page Tables",
+    "type": "long",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "If each process keeps a separate copy of its private code and data, how can this be achieved with minimal overhead?",
+    "topic": "Operating Systems",
+    "type": "numerical",
+    "difficulty": "easy",
+    "cognitive_level": "remembering"
+  },
+  {
+    "question": "What is the purpose of a frame number bit in a page table?",
+    "topic": "Page Tables",
+    "type": "mcq",
+    "difficulty": "hard",
+    "cognitive_level": "applying",
+    "options": [
+      "A) Validating data",
+      "B) Storing process ID",
+      "C) Indicating frame number",
+      "D) Checking for invalid frames"
+    ]
+  },
+  {
+    "question": "What is the primary purpose of using an Inverted Page Table?",
+    "topic": "Page Tables",
+    "type": "mcq",
+    "difficulty": "easy",
+    "cognitive_level": "understanding",
+    "options": [
+      "Reduce memory needed",
+      "Increase time to search table",
+      "Improve TLB access",
+      "Accelerate page-table searches"
+    ]
+  },
+  {
+    "question": "Describe the main advantage of using an Inverted Page Table over traditional page tables.",
+    "topic": "Page Tables",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  },
+  {
+    "question": "How does the use of an Inverted Page Table affect the time needed to search for a physical page when a page reference occurs?",
+    "topic": "Page Tables",
+    "type": "numerical",
+    "difficulty": "hard",
+    "cognitive_level": "evaluating"
+  },
+  {
+    "question": "Explain how an Inverted Page Table can be used to implement shared memory.",
+    "topic": "Shared Memory",
+    "type": "long",
+    "difficulty": "medium",
+    "cognitive_level": "understanding"
+  }
+]

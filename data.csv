@@ -1,6 +1,0 @@
-Title,Description
-What is Machine Learning,Machine Learning is the science of making computers learn from data.
-Types of Learning,Supervised, Unsupervised, and Reinforcement learning are the main types.
-Python Libraries,Scikit-learn, TensorFlow, and PyTorch are used for ML in Python.
-Model Evaluation,Accuracy, Precision, Recall, and F1-score are common evaluation metrics.
-Overfitting,Overfitting means your model memorized training data and fails to generalize.
