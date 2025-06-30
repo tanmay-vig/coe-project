@@ -7,7 +7,7 @@ from PIL import Image
 
 DATASET_DIR = "dataset"
 OUTPUT_PATH = "output/extracted_output.txt"
-
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 def extract_text_from_image(image):
     gray = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2GRAY)
     return pytesseract.image_to_string(gray)
