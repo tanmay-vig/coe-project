@@ -1,0 +1,9 @@
+pytesseract
+PyMuPDF
+opencv-python
+transformers
+langchain
+faiss-cpu
+tqdm
+langchain-community
+langchain-ollama
