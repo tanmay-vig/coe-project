@@ -1,0 +1,230 @@
+{
+  "1": [
+    {
+      "question": "not_duplicate",
+      "topic": "computer networks",
+      "subtopic": "\"Network Congestion Control\"",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq question? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "Based on the subject being \"computer networks\" and the vague question, I would categorize it under:\n\n**Network Architecture**\n\nThis subtopic is most relevant as it encompasses various aspects of computer networks, including protocols, topologies, and infrastructure. The question may be asking about a specific network architecture or design, making this subtopic a good fit.",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq? ????????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "A clever question!\n\nI would say that the best subtopic for this MCQ (Multiple Choice Question) is: \"Network Topologies\".",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq question? ?",
+      "topic": "computer networks",
+      "subtopic": "The best subtopic for this MCQ (Multiple Choice Question) would be:\n\n\"Network Topologies\"\n\nThis subtopic falls under the broader category of Computer Networks, as it deals with the physical and logical structure of computer networks.",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "how many marks does a bbb laptop get? ?",
+      "topic": "computer networks",
+      "subtopic": "What an interesting question!\n\nGiven the subject of computer networks and the question about BBB laptops, I would say that this question belongs to the subtopic:\n\n**Network Architecture**\n\nSpecifically, it's related to the design and specifications of laptop computers in a network context.",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    }
+  ],
+  "2": [
+    {
+      "question": "What is the best way to get a short question? ? ? ? ??????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "A clever play on words!\n\nI think I have the answer: **Network Topology**",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the name of the protocol? ?",
+      "topic": "computer networks",
+      "subtopic": "Based on the subject \"computer networks\" and the question \"What is the name of the protocol?\", I would say that this question belongs to the subtopic:\n\n**Transport Layer Protocols**\n\nThis subtopic fits because protocols are a fundamental concept in computer networks, and transport layer protocols (such as TCP or UDP) are specific types of protocols that govern how data is transmitted between nodes.",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the rpf protocol? a short question for 2 marks?",
+      "topic": "computer networks",
+      "subtopic": "Internet Protocols (IPs)",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the sum of the packet? ? ??????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "A cleverly crafted question!\n\nAfter analyzing the subject and the question, I would say that this question belongs to: **Network Layer Protocols**\n\nThe phrase \"What is the sum of the packet?\" hints at a concept related to packet switching, which is a fundamental aspect of computer networks. The network layer protocols (e.g., TCP/IP) manage packet transmission and reception, making this subtopic the most relevant fit for this question.",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the identifier of the registration? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "Based on the subject of computer networks and the question, I would say that the best subtopic this question belongs to is:\n\n\"IP Addressing\"\n\nThe question seems to be asking about the identifier of registration in a network context, which suggests that it's related to IP addressing, specifically the process of registering an IP address.",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    }
+  ],
+  "3": [
+    {
+      "question": "What is the simplest way to track a path? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "The simplest way to track a path in computer networks likely belongs to:\n\n**Routing Algorithms**\n\nThis subtopic deals with the processes and techniques used to determine the optimal path for data packets to travel through a network.",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the process of registering a mobile phone with a VLR? ? When a mobile is switched on or enters a part of a visited network that is covered by a new VLR, the user must register with the visited network.",
+      "topic": "computer networks",
+      "subtopic": "The best subtopic for this question would be: \"Mobile Network Architecture\"",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the best way to transfer e-mail from a browser to a server?",
+      "topic": "computer networks",
+      "subtopic": "The best subtopic for this question would be:\n\n\"Email Transmission Protocols\"\n\nThis subtopic specifically deals with the protocols and methods used to transfer emails between devices, which aligns well with the question about transferring email from a browser to a server.",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the definition of a socket? ?",
+      "topic": "computer networks",
+      "subtopic": "\"Socket Programming\"",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the best way to obtain privacy and anonymity?",
+      "topic": "computer networks",
+      "subtopic": "A great question!\n\nThe best subtopic for this question would be:\n\n**Network Security**\n\nThis subtopic deals with ensuring the confidentiality, integrity, and availability of data transmitted over computer networks, which directly relates to maintaining privacy and anonymity.",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    }
+  ],
+  "5": [
+    {
+      "question": "What is a retransmission protocol? ??????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Based on the subject of computer networks and the given question, I would say that the best subtopic this question belongs to is:\n\n\"Error Control Protocols\"\n\nThis subtopic specifically deals with protocols that ensure reliable data transfer over a network by detecting and correcting errors or lost packets. Retransmission protocol is one type of error control protocol that re-sends packets that are not received correctly, which aligns well with the given question.",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the average energy density of the oscillating electric field?",
+      "topic": "computer networks",
+      "subtopic": "I think there might be some confusion! The question \"What is the average energy density of the oscillating electric field?\" doesn't quite fit with the subject of computer networks.\n\nA more suitable subtopic for this question would be \"Electromagnetic Theory\" or perhaps \"Communication Systems\" (specifically, electromagnetic modeling and analysis). Computer networks primarily focus on the design, implementation, and management of communication systems between devices, whereas electromagnetism is a fundamental aspect of physical-layer communication.",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the best way to test IPv4?",
+      "topic": "computer networks",
+      "subtopic": "Network Testing and Troubleshooting",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the best way to test the openflow specification? ? ??????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "\"Network Protocols Testing and Validation\"",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the difference between a laptop with an Ethernet interface and a laptop without an Ethernet interface?",
+      "topic": "computer networks",
+      "subtopic": "A great question!\n\nThe answer would fall under: **Network Interface Cards (NICs)**\n\nIn this case, the question specifically compares laptops with and without Ethernet interfaces, which are types of Network Interface Cards (NICs).",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    }
+  ]
+}
