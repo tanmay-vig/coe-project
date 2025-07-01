@@ -1,0 +1,230 @@
+{
+  "1": [
+    {
+      "question": "not_duplicate",
+      "topic": "computer networks",
+      "subtopic": "Network Congestion Control",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq question? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "Network Architecture",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq? ????????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Network Topologies",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "what is the mcq question? ?",
+      "topic": "computer networks",
+      "subtopic": "Network Topologies",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    },
+    {
+      "question": "how many marks does a bbb laptop get? ?",
+      "topic": "computer networks",
+      "subtopic": "Network Architecture",
+      "question_type": "mcq",
+      "difficulty_level": "easy",
+      "time": "1 min",
+      "cognitive_level": "remembering",
+      "marks": 1,
+      "image": null
+    }
+  ],
+  "2": [
+    {
+      "question": "What is the best way to get a short question? ? ? ? ??????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Network Topology",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the name of the protocol? ?",
+      "topic": "computer networks",
+      "subtopic": "Transport Layer Protocols",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the rpf protocol? a short question for 2 marks?",
+      "topic": "computer networks",
+      "subtopic": "Internet Protocols (IPs)",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the sum of the packet? ? ??????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Network Layer Protocols",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    },
+    {
+      "question": "What is the identifier of the registration? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "IP Addressing",
+      "question_type": "short",
+      "difficulty_level": "medium",
+      "time": "2-3 min",
+      "cognitive_level": "understanding",
+      "marks": 2,
+      "image": null
+    }
+  ],
+  "3": [
+    {
+      "question": "What is the simplest way to track a path? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?",
+      "topic": "computer networks",
+      "subtopic": "Routing Algorithms",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the process of registering a mobile phone with a VLR? ? When a mobile is switched on or enters a part of a visited network that is covered by a new VLR, the user must register with the visited network.",
+      "topic": "computer networks",
+      "subtopic": "Mobile Network Architecture",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the best way to transfer e-mail from a browser to a server?",
+      "topic": "computer networks",
+      "subtopic": "Email Transmission Protocols",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the definition of a socket? ?",
+      "topic": "computer networks",
+      "subtopic": "Socket Programming",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    },
+    {
+      "question": "What is the best way to obtain privacy and anonymity?",
+      "topic": "computer networks",
+      "subtopic": "Network Security",
+      "question_type": "descriptive",
+      "difficulty_level": "medium",
+      "time": "4-5 min",
+      "cognitive_level": "applying",
+      "marks": 3,
+      "image": null
+    }
+  ],
+  "5": [
+    {
+      "question": "What is a retransmission protocol? ??????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Error Control Protocols",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the average energy density of the oscillating electric field?",
+      "topic": "computer networks",
+      "subtopic": "What is the average energy density of the oscillating electric field?",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the best way to test IPv4?",
+      "topic": "computer networks",
+      "subtopic": "Network Testing and Troubleshooting",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the best way to test the openflow specification? ? ??????????????????????????????????????????????????????????????????????????????????????????????????",
+      "topic": "computer networks",
+      "subtopic": "Network Protocols Testing and Validation",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    },
+    {
+      "question": "What is the difference between a laptop with an Ethernet interface and a laptop without an Ethernet interface?",
+      "topic": "computer networks",
+      "subtopic": "Network Interface Cards (NICs)",
+      "question_type": "long",
+      "difficulty_level": "hard",
+      "time": "6-10 min",
+      "cognitive_level": "evaluating",
+      "marks": 5,
+      "image": null
+    }
+  ]
+}
