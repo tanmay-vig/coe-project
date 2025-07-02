@@ -7,7 +7,7 @@ import traceback
 
 
 
-genai.configure(api_key="AIzaSyDITxfnFKTWI6aIt3jwmdaGfa-_xDO9BEI")
+genai.configure(api_key="g_api")
 
 app = Flask(__name__)
 
