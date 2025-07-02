@@ -17,7 +17,7 @@ app = Flask(__name__)
 def home():
     return '''
     <h2>Gemini Question Generator</h2>
-    <p><a href="/generate-questions">📚 Generate Questions from Your Saved Embeddings</a></p>
+    <p><a href="/generate-questions"> Generate Questions from Your Saved Embeddings</a></p>
     '''
 
 @app.route('/generate-questions')
@@ -31,7 +31,7 @@ def generate_questions():
         documents = data.get("docs", [])
 
     if not documents:
-        return "<h3>⚠️ No documents found inside the embeddings file.</h3>"
+        return "<h3>No documents found inside the embeddings file.</h3>"
 
   
     combined_text = "\n".join(documents)[:3000]
@@ -51,7 +51,7 @@ def generate_questions():
        return f"<h3> Gemini API Error:</h3><pre>{traceback.format_exc()}</pre>"
 
 
-    html = "<h2>📘 Questions Generated from Your Data</h2><ul>"
+    html = "<h2>Questions Generated from Your Data</h2><ul>"
     for q in questions:
         if q.strip():
             html += f"<li>{q.strip()}</li>"
