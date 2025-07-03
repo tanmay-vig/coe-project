@@ -1,13 +1,12 @@
-import os
-from refinement import handle_image
-from refinement import handle_pdf
-
-ALLOWED_EXTENSIONS = {'pdf', 'png', 'jpg', 'jpeg'}
-
 def allowed_file(filename):
+    ALLOWED_EXTENSIONS = {'pdf', 'png', 'jpg', 'jpeg'}
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 def run_ocr_interface():
+    import os
+    from refinement import handle_image
+    from refinement import handle_pdf
+
     print("📝 Welcome to the OCR Processor")
     
     # Optional text input
@@ -37,7 +36,7 @@ def run_ocr_interface():
 
     print("\n📄 Extracted Content:\n")
     
-    output_path = "extracted_output.txt"
+    output_path = "extracted_text.txt"
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(result)
 

@@ -1,0 +1,223 @@
+
+--- Page 1 ---
+Solar Photovoltaics
+
+--- Page 2 ---
+What is Solar Energy?
+Originates with the thermonuclear
+fusion reactions occurring in the sun.
+Represents the entire electromagnetic
+radiation
+(visible
+light,
+infrared,
+ultraviolet, x-rays, and radio waves).
+UV: 7.6% (150-380 nm)
+Visible:48.4% (380-720nm)
+Infrared: 43% (720-4000nm)
+
+--- Page 3 ---
+• Solar
+power
+generated
+using
+PV
+systems
+is
+intermittent and variable
+• Power produced by a PV system depends mainly
+on
+absorbed
+solar
+radiation-Global
+Solar
+Radiation (GSR) forecasting tool is essential
+• Knowledge
+of
+GSR
+helps
+in
+anticipating
+problems related to the nature of PV power and
+helps in pre-planning for minimizing influence
+of fluctuations
+
+--- Page 4 ---
+Ventura and Tina, 2015
+STC-Cell temperature of 25°C, irradiance of 1000 W/ sq.m.
+NOCT-Temp. reached by a cell under following operating conditions:
+Irradiance on cell surface = 800 W/m2
+Air Temperature = 20°C
+Wind Velocity = 1 m/s
+
+--- Page 5 ---
+Global Solar Radiation (GSR)
+Direct radiation/beam Radiation 
+Without absorption or scattering
+Diffuse Radiation
+Scattering interaction with earth’s atmosphere
+Albedo Radiation
+Reflected Radiation
+
+--- Page 6 ---
+Estimation of Solar Radiation
+Various methods to find out/estimate Solar Radiation
+Direct measurement using Pyranometer (expensive equipment
+and data acquisition set up. Installed at only very selected
+locations, mostly metropolitans)
+Satellite based methods
+Expensive, lack of historical data, forecasting errors
+Empirical Models
+Use
+correlation
+between
+solar
+radiation
+and
+geographical
+and
+meteorological parameters.
+Stochastic algorithm models
+AI techniques
+NN,ANFIS etc.
+
+--- Page 7 ---
+Solar Radiation
+Solar Radiation Energy (Irradiation)
+Amount of energy received by a surface over a period of time 
+(W-Hr/sq.m.) per hour/day/month.
+Solar Radiation Power (Irradiance)
+Rate of Energy received by surface per unit area (W/sq.m.)
+
+--- Page 8 ---
+Irradiance
+Rate of Energy received by a surface per unit area. 
+(W/Sq.m.)
+
+--- Page 9 ---
+Irradiance/Insolation
+Amount of energy received by a surface over a given period 
+of time. (W/Sq.m. per hour/day/month etc.)
+
+--- Page 10 ---
+Solar Constant
+Amount of Energy that reaches just outside earth’s 
+atmosphere. (1367 W/Sq.m)
+Measured at the surface perpendicular to the sunrays at the 
+average sun-earth distance on the top of the atmosphere.
+Sun-earth distance varies throughout the year.
+
+--- Page 11 ---
+Global Solar Radiation (GSR)
+Direct radiation/beam Radiation 
+Without absorption or scattering
+Diffuse Radiation
+Scattering interaction with earth’s atmosphere (15-20% of 
+Direct)
+Albedo Radiation
+Reflected Radiation
+
+--- Page 12 ---
+Air Mass
+AM: distance travelled by the sun rays in the earth’s 
+atmosphere. AM= 1/cos θ
+AM0: radiation spectrum just outside earth’s atmosphere 
+(1376  W/sq.m.)
+AM1: (1105 W/sq.m.)
+AM1.5: (1000 W/sq.m.)
+AM2: (894 W/sq.m.)
+
+--- Page 13 ---
+AM
+
+--- Page 14 ---
+Declination Angle
+Angle between: Lines joining the centre of the earth to the 
+centre of the sun with its projection on the equatorial plane.
+Declination angle varies due to inclination of the earth’s polar 
+axis and its revolution around the sun.
+
+--- Page 15 ---
+Declination Angle (June 21)
+
+--- Page 16 ---
+Declination Angle (Dec. 22)
+
+--- Page 17 ---
+Angle of Sunrays
+Angle of Incidence: Angle Between the direct Sunrays and 
+normal to the collector 
+Latitude (Ø) (Angle between the lines joining the earth’s 
+centre to the location with its projection on the equatorial 
+plane. (Northen Hemisphere: positive angle)
+Time of the Day (Omega): Represented by hour angle. 1 
+hour = 15 degrees
+Inclination of Surface (Beta): Angle made by the collector 
+surface with the horizon (0-180)
+
+--- Page 18 ---
+Orientation of Collector in Horizontal Plane
+Angle Between the lines due south and the projection of 
+normal to the collector on the horizontal plane (γ)
+
+--- Page 19 ---
+Relationship between various Angles
+Situation 1: Collector flat on the ground
+Inclination of Surface (β=0)
+Situation 2: Collector Surface is facing south 
+Surface Azimuth Angle (γ)=0
+
+--- Page 20 ---
+Exercise 1
+What will be the angle of Incidence in Mumbai at Noon on 
+November 01 on Horizontal Plane!
+
+--- Page 21 ---
+Local Apparent Time (LAT)
+Time at which the  earth becomes overhead at a given 
+location.
+Standard time for a country is based on Noon at a given 
+longitude.
+For a location on a different longitude in the same country, 
+the noon time needs to be corrected.
+1Hour = 15 degrees of longitude difference.
+1 Degree longitude= 4 min difference in time.
+
+--- Page 22 ---
+LAT
+Earth’s rotation speed and orbit are subject to some
+fluctuations. The amount of time to be corrected varies from
+month to month
+
+--- Page 23 ---
+Declination Angle variation
+
+--- Page 24 ---
+Exercise 2
+Calculate the declination angle, LAT and hour angle for the
+collector located in Bombay (19.12 N, 72.51 E) which is
+tilted at an angle of 30 degrees and is pointing due South on
+October 1.
+
+--- Page 25 ---
+Solar Radiation Estimation
+Monthly Average Daily Global radiation on Horizontal
+Surfaces
+Hoa : Monthly average extra terrestrial solar radiation
+on horizontal surface
+Sa: monthly average daily sunshine hours
+Smaxa
+Ho=Hoa (for a given day)
+
+--- Page 26 ---
+Solar Radiation Estimation
+
+--- Page 27 ---
+Solar Radiation Estimation
+
+--- Page 28 ---
+Exercise 3
+Estimate the monthly average daily global radiation on the 
+horizontal surface at Nagpur (21.06N, 79.03E)  during the 
+month of March if the average sunshine hours per day is 9.2. 
+Assume (a=0.27 and b=0.50)

@@ -5,9 +5,9 @@ from langchain_community.embeddings import OllamaEmbeddings
 from langchain.schema import Document
 
 # Load Ollama embeddings
-embeddings = OllamaEmbeddings(model="llama3")
+embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
-def load_questions(file_path="questions.json"):
+def load_questions(file_path="C:\\Users\\hp\\projects\\Question_Generator\\Data_Preprocessing\\output_questions.json"):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -28,7 +28,7 @@ def load_questions(file_path="questions.json"):
                 }
             )
             docs.append(doc)
-
+    store_in_faiss(docs)
     return docs
 
 def store_in_faiss(docs, index_path="faiss_index_ollama"):
@@ -42,5 +42,4 @@ def store_in_faiss(docs, index_path="faiss_index_ollama"):
     print(f"✅ Stored in FAISS at: {index_path}")
 
 if __name__ == "__main__":
-    questions = load_questions("C:\\Users\\hp\\projects\\Question_Generator\\Data_Preprocessing\\questions.json")
-    store_in_faiss(questions)
+    questions = load_questions("C:\\Users\\hp\\projects\\Question_Generator\\Data_Preprocessing\\output_questions.json")
