@@ -29,47 +29,6 @@ This project allows educators, students, and curriculum designers to:
 | Subtopic Classification | Rule-based tagging |
 | Dev Tools    | PowerShell/Terminal + VS Code + Docker (optional) |
 
----
-
-## 📂 Folder Structure
-coe_project/
-├── app/                        # FastAPI application
-│   ├── main.py                 # App entrypoint
-│   ├── routes.py               # API routes
-│   ├── config.py               # Configuration
-│   ├── dependencies/           # Dependency injections (currently empty)
-│   ├── services/               # Core logic
-│   │   ├── ocr_utils.py        # PDF/image text extraction
-│   │   ├── class_structure.py  # Detects chapters, sections, etc.
-│   │   ├── preprocessing.py    # Cleans up raw text
-│   │   ├── question_gen.py     # Generates questions using Ollama
-│   │   ├── rag_pipeline.py     # LangChain/Ollama RAG logic
-│   │   ├── chat.py             # Handles conversation history
-│   │   ├── search_engine.py    # Semantic search & retrieval
-│   │   ├── subtopic_cleaner.py # Subtopic tagging for questions
-│   │   ├── embedding_store.py  # FAISS index management
-│   │   └── structure_parser.py # Custom structure parsing logic
-│   ├── utils/
-│   │   └── file_handler.py     # Upload & file management
-│   └── data/
-│       ├── faiss_index_ollama/
-│       │   ├── index.faiss
-│       │   └── index.pkl
-│       └── sample_pdfs/
-│           ├── extracted_output.txt
-│           ├── keyword.json
-│           ├── output_questions.json
-│           |── questions.json
-│           |── pdf/
-│           └── pdf_extract.pdf
-├── uploads/                    # Uploaded PDFs or images
-├── langflow_project/           # Optional: LangFlow UI integration
-├── backend/                    # Placeholder for backend utils
-├── tests/
-│   └── test_pipeline.py        # Unit testing pipeline
-└── requirements.txt            # Python dependencies
-
-
 
 ## ⚙️ Features
 
