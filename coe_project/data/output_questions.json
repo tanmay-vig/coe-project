@@ -1,0 +1,7 @@
+[
+  {
+    "chunk_id": 0,
+    "context": "OCR failed bad filename typefilenameclass starlette.datastructures.UploadFile filenameUploadFilefilenamepdf_extract.pdf, size1205304, headersHeaderscontentdisposition formdata; namefile; filenamepdf_extract.pdf, contenttype applicationpdf.",
+    "error": "'AIMessage' object has no attribute 'strip'"
+  }
+]
