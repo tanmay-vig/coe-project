@@ -32,51 +32,43 @@ This project allows educators, students, and curriculum designers to:
 ---
 
 ## 📂 Folder Structure
-
 coe_project/
-├── app/                              # FastAPI application
-│   ├── __pycache__
-│   ├── main.py                       # App entrypoint
-│   ├── routes.py                     # API routes
-│   ├── config.py                     # Configuration
-│   ├── dependencies             //empty
-│   ├── services/                     # Core logic
-│   │   ├── __pycache__
-│   │   ├── __init__.py
-│   │   ├── ocr_utils.py              # PDF/image text extraction
-│   │   ├── class_structure.py        # Detects chapters, sections, etc.
-│   │   ├── preprocessing.py          # Cleans up raw text
-│   │   ├── question_gen.py           # Generates questions using Ollama
-│   │   ├── rag_pipeline.py           # LangChain/Ollama RAG logic
-│   │   ├── chat.py                   # Handles conversation history
-│   │   ├── search_engine.py                   # Handles conversation history
-│   │   ├── subtopic_cleaner.py                   # Handles conversation history
-│   │   └── embedding_store.py        # FAISS index management
-│   ├── utils/
-│   │   ├── file_handler.py           # Handles uploads and storage
-│   │   └── structure_parser.py       # Custom text parsing logic
-│   └── data/
-│       ├── faiss_index_ollama/
-│       │       ├── index.faiss
-│       │       └── index.pkl
-│       ├── sample_pdfs/
-│       │       ├── extracted_output.txt
-│       │       ├── keyword.json
-│       │       ├── output_questions.json
-│       │       ├── questions.json
-│       │       ├── pdf
-│       │       └── pdf_extract
-│       └── uploads/                 # Uploaded PDFs or images
- |
-├── langflow_project/                # Optional: For UI in future
-│   └── (Langflow setup here)
-├── backend                # empty
-│   └── (backend setup here)
- |
-├── tests/
-│   └── test_pipeline.py  
+├── app/ # FastAPI application
+│ ├── main.py # App entrypoint
+│ ├── routes.py # API routes
+│ ├── config.py # Configuration
+│ ├── dependencies/ # Dependency injections (empty)
+│ ├── services/ # Core logic
+│ │ ├── ocr_utils.py # PDF/image text extraction
+│ │ ├── class_structure.py # Detects chapters, sections, etc.
+│ │ ├── preprocessing.py # Cleans up raw text
+│ │ ├── question_gen.py # Generates questions using Ollama
+│ │ ├── rag_pipeline.py # LangChain/Ollama RAG logic
+│ │ ├── chat.py # Handles conversation history
+│ │ ├── search_engine.py # Semantic search
+│ │ ├── subtopic_cleaner.py # Classifies questions by subtopics
+│ │ ├── embedding_store.py # FAISS index management
+│ │ └── structure_parser.py # Custom structure parsing logic
+│ ├── utils/
+│ │ └── file_handler.py # Upload & file management
+│ └── data/
+│ ├── faiss_index_ollama/ # Vector DB
+│ │ ├── index.faiss
+│ │ └── index.pkl
+│ ├── sample_pdfs/
+│ │ ├── extracted_output.txt
+│ │ ├── keyword.json
+│ │ ├── output_questions.json
+│ │ └── questions.json
+│ └── pdf/
+│ └── pdf_extract.pdf
 │
-└── requirements.txt
+├── uploads/ # Uploaded PDFs/images
+├── langflow_project/ # Langflow UI (optional)
+├── backend/ # Optional backend files
+├── tests/
+│ └── test_pipeline.py # Testing script
+└── requirements.txt # Python dependencies
 
 
 ## ⚙️ Features
