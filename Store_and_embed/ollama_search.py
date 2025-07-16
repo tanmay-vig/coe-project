@@ -1,3 +1,5 @@
+import json
+
 def search_questions(query=None, marks=None, difficulty=None, cognitive_level=None):
     from langchain_community.vectorstores import FAISS
     from langchain_ollama import OllamaEmbeddings
@@ -18,7 +20,12 @@ def search_questions(query=None, marks=None, difficulty=None, cognitive_level=No
     def match(doc):
         if marks is not None and doc.metadata.get("marks") != int(marks):
             return False
-        if difficulty and doc.metadata.get("difficulty_level", "").lower() != difficulty.lower():
+        difficulty_value = (
+            doc.metadata.get("difficulty_level") 
+            or doc.metadata.get("difficulty") 
+            or ""
+        ).lower()
+        if difficulty and difficulty_value != difficulty.lower():
             return False
         if cognitive_level and doc.metadata.get("cognitive_level", "").lower() != cognitive_level.lower():
             return False
@@ -31,15 +38,53 @@ def search_questions(query=None, marks=None, difficulty=None, cognitive_level=No
         filtered = docs[:5]
 
     print(f"\n🎯 Showing {len(filtered)} question(s):\n")
+
+    results = []
+
     for doc in filtered:
         metadata = doc.metadata
-        print(f"❓ Question: {doc.page_content}")
-        print(f"🏷️  Topic: {metadata.get('topic', 'unknown')}")
-        print(f"🔹 Subtopic: {metadata.get('subtopic', 'unknown')}")
-        print(f"🎯 Marks: {metadata.get('marks', '?')}")
-        print(f"📈 Difficulty: {metadata.get('difficulty_level', 'unknown')}")
-        print(f"🧠 Cognitive Level: {metadata.get('cognitive_level', 'unknown')}")
+        # DEBUGGING
+        # print("DEBUG metadata:", metadata)
+        difficulty_value = (
+            doc.metadata.get("difficulty_level") 
+            or doc.metadata.get("difficulty") 
+            or ""
+        )
+        question_info = {
+            "question": doc.page_content,
+            "topic": metadata.get("topic", "unknown"),
+            "subtopic": metadata.get("subtopic", "unknown"),
+            "marks": metadata.get("marks", "?"),
+            "difficulty_level": difficulty_value.capitalize(),
+            "cognitive_level": metadata.get("cognitive_level", "unknown")
+        }
+        results.append(question_info)
+
+        # Print to console
+        print(f"❓ Question: {question_info['question']}")
+        print(f"🏷️  Topic: {question_info['topic']}")
+        print(f"🔹 Subtopic: {question_info['subtopic']}")
+        print(f"🎯 Marks: {question_info['marks']}")
+        print(f"📈 Difficulty: {question_info['difficulty_level']}")
+        print(f"🧠 Cognitive Level: {question_info['cognitive_level']}")
         print("-" * 60)
+
+    # Combine search parameters and results
+    output = {
+        "search_parameters": {
+            "query": query,
+            "marks": marks,
+            "difficulty": difficulty,
+            "cognitive_level": cognitive_level
+        },
+        "results": results
+    }
+
+    # Save to JSON file
+    with open("search_results.json", "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=4, ensure_ascii=False)
+
+    print(f"\n✅ Results saved to 'search_results.json'.")
 
 # Example usage
 if __name__ == "__main__":

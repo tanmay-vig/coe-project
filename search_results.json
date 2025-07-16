@@ -1,0 +1,50 @@
+{
+    "search_parameters": {
+        "query": null,
+        "marks": 4,
+        "difficulty": "Hard",
+        "cognitive_level": null
+    },
+    "results": [
+        {
+            "question": "Explain the relationship between Air Mass (AM) and the angle of incidence (θ). Use the formula AM = 1/cos θ to support your answer.",
+            "topic": "Air Mass",
+            "subtopic": "General",
+            "marks": 3,
+            "difficulty_level": "Hard",
+            "cognitive_level": "applying"
+        },
+        {
+            "question": "Discuss the importance of understanding the properties of solar radiation in designing efficient PV systems. (Answer should include a clear explanation of the role of GSR forecasting tool.)",
+            "topic": "Solar Photovoltaics",
+            "subtopic": "Properties of Solar Radiation",
+            "marks": 5,
+            "difficulty_level": "Hard",
+            "cognitive_level": "Evaluating"
+        },
+        {
+            "question": "Design an experiment to measure the effect of wind velocity on the temperature reached by a solar cell under NOCT conditions. Justify your design and provide a detailed description of the equipment and procedures you would use.",
+            "topic": "Solar Cell Testing",
+            "subtopic": "Experimental Design",
+            "marks": 5,
+            "difficulty_level": "Very challenging",
+            "cognitive_level": "Creating"
+        },
+        {
+            "question": "Explain the importance of considering fluctuations in Earth's rotation speed and orbit while estimating solar radiation.",
+            "topic": "Solar Radiation Estimation",
+            "subtopic": "Earth's Rotation Fluctuations",
+            "marks": 5,
+            "difficulty_level": "Very challenging",
+            "cognitive_level": "Evaluating"
+        },
+        {
+            "question": "Explain how knowledge of Global Solar Radiation (GSR) helps in pre-planning for minimizing the influence of fluctuations in PV power.",
+            "topic": "Solar Photovoltaics",
+            "subtopic": "Generation of Solar Power",
+            "marks": 3,
+            "difficulty_level": "Medium-hard",
+            "cognitive_level": "Analyzing"
+        }
+    ]
+}
